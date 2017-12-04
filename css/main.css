@@ -1,0 +1,51 @@
+.main {
+    background-color: #ccc;
+    background-image: url("../img/sndchck.jpg");
+    background-size: cover;
+    /* background-position-y: -50px; */
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.drum {
+    /* background-color: #eee; */
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 88px;
+    height: 85px;
+    border: 2px solid red;
+    box-shadow: 0 0 10px 0px red;
+    font-size: 20px;
+    margin: 5px;
+    color: rgb(238, 55, 23);
+    /* box-shadow: 
+    1px 1px 1px #666,
+    2px 2px 2px #666,
+    3px 3px 3px #555,
+    4px 4px 4px #555,
+    5px 5px 5px #444,
+    6px 6px 6px #333; */
+}
+.letter {
+    text-shadow: 1px 1px 1px #000;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.drum-name {
+    font-size: 18px;
+    text-shadow: 1px 1px 0px #000;
+    font-weight: 300;
+    
+        /* 2px 2px 0px #000,
+        3px 3px 0px #000;    */
+    
+    /* font-style: italic; */
+}

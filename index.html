@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JavaScript Drumkit project based on JAVASCRIPT30.com</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
     
+
+</head>
+
+<body>
+    <div class="main">
+        <div data-key="65" class="drum">
+            <span class="letter">A</span>
+            <span class="drum-name">mokugyo<br>A1</span>
+        </div>
+        <div data-key="83" class="drum">
+            <span class="letter">S</span>
+            <span class="drum-name">mokugyo<br>A2</span>
+        </div>
+        <div data-key="68" class="drum">
+            <span class="letter">D</span>
+            <span class="drum-name">mokusho<br>A1</span>
+        </div>
+
+        <div data-key="70" class="drum">
+            <span class="letter">F</span>
+            <span class="drum-name">mokusho<br>A2</span>
+        </div>
+        <div data-key="71" class="drum">
+            <span class="letter">G</span>
+            <span class="drum-name">okedo<br>A2</span>
+        </div>
+        <div data-key="72" class="drum">
+            <span class="letter">H</span>
+            <span class="drum-name">okedo<br>A3</span>
+        </div>
+        <div data-key="74" class="drum">
+            <span class="letter">J</span>
+            <span class="drum-name">okedo<br>A5</span>
+        </div>
+        <div data-key="75" class="drum">
+            <span class="letter">K</span>
+            <span class="drum-name">hirado<br>A1</span>
+        </div>
+        <div data-key="76" class="drum">
+            <span class="letter">L</span>
+            <span class="drum-name">hirado<br>B1</span>
+        </div>
+    </div>
+    <audio data-key="65" src="./sound/mokugyo-A1.wav"></audio>
+    <audio data-key="83" src="./sound/mokugyo-A2.wav"></audio>
+    <audio data-key="68" src="./sound/mokusho-A1.wav"></audio>
+    <audio data-key="70" src="./sound/mokusho-A2.wav"></audio>
+    <audio data-key="71" src="./sound/okedo-A2.wav"></audio>
+    <audio data-key="72" src="./sound/okedo-A3.wav"></audio>
+    <!-- <audio data-key="73" src="./sound/okedo-A5.wav"></audio> -->
+    <audio data-key="74" src="./sound/hirado-A1.wav"></audio>
+    <audio data-key="75" src="./sound/hirado-B1.wav"></audio>
+    <audio data-key="76" src="./sound/hirado-B2.wav"></audio>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
