@@ -1,17 +1,20 @@
+body {
+    margin: 0 auto;
+}
 .main {
     background-color: #ccc;
     background-image: url("../img/sndchck.jpg");
     background-size: cover;
-    /* background-position-y: -50px; */
-    height: 100vh;
     margin: 0 auto;
+}
+.keys {
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 .drum {
-    /* background-color: #eee; */
     border-radius: 50px;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -20,18 +23,13 @@
     justify-content: center;
     width: 88px;
     height: 85px;
-    border: 2px solid red;
-    box-shadow: 0 0 10px 0px red;
+    border: 2px solid rgb(255, 177, 8);
+    box-shadow: 0 0 10px 0px rgb(255, 123, 0);
     font-size: 20px;
     margin: 5px;
-    color: rgb(238, 55, 23);
-    /* box-shadow: 
-    1px 1px 1px #666,
-    2px 2px 2px #666,
-    3px 3px 3px #555,
-    4px 4px 4px #555,
-    5px 5px 5px #444,
-    6px 6px 6px #333; */
+    color: rgb(255, 177, 8);
+    transition: all 0.05s;
+  
 }
 .letter {
     text-shadow: 1px 1px 1px #000;
@@ -43,9 +41,18 @@
     font-size: 18px;
     text-shadow: 1px 1px 0px #000;
     font-weight: 300;
-    
-        /* 2px 2px 0px #000,
-        3px 3px 0px #000;    */
-    
-    /* font-style: italic; */
+}
+.credit {
+    align-self: flex-end;
+    color: #888;
+    text-align: right;
+}
+.credit a {    
+    text-decoration: none;
+    color: #888;
+}
+
+.active {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 4px rgb(255, 123, 0);
 }
